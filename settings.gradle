@@ -2,4 +2,4 @@ rootProject.name = 'java-showcase'
 include 'java8'
 include 'java11'
 include 'java17'
-
+include 'java21'
