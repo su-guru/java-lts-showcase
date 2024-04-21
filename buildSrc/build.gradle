@@ -5,3 +5,8 @@ plugins {
 repositories {
     mavenCentral()
 }
+
+// この設定いれないとgradle で実行したときに、標準出力が文字化けする
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
